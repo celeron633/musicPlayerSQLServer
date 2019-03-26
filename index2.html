@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>在线音乐播放管理系统V1.0</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+.box {
+	width: 98%;
+	height: 70%;
+	margin: 2%;
+	boxder: 1px solid #ccc;
+	background: #FFF;
+	filter: alpha(opacity : 80);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8
+}
+</style>
+</head>
+<body style="background-image: url(./img/beijing.jpg);">
+	<div style="background: #FFF; color: #000">
+		<ul class="nav nav-tabs">
+			<li class="presentation"><img src="img/QQmusicLogo.jpg"></li>
+			<li class="presentation" class="active"><a href="#">音乐馆</a></li>
+			<li class="presentation"><a href="./user.jsp">我的音乐</a></li>
+			<li class="presentation"><a
+				href="https://y.qq.com/download/index.html">下载客户端</a></li>
+			<li class="presentation"><a href="./login.jsp">登录</a>
+			<li>
+				<form action="./search" method="post" class="form-horizontal"
+					role="form">
+					<input name="searchname" class="geshou" placeholder="支持歌手/歌曲搜索">
+					<input type="submit" class="search" value="搜索" alt="Submit">
+				</form>
+			</li>
+
+		</ul>
+		<div>
+			<ul class=" nav nav-pills">
+				<li class="presention"><a href="#">歌曲</a></li>
+				<li class="presention"><a href="#">歌手</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div style="margin-top: 10px">
+			<ul>
+				<li class="presention1"><a href="./show?songid=1">她说——林俊杰</a></li>
+				<li class="presention1"><a href="./show?songid=2">告白气球——周杰伦</a></li>
+				<li class="presention1"><a href="./show?songid=3">害怕——薛之谦</a></li>
+				<li class="presention1"><a href="./show?songid=4">十年——陈奕迅</a></li>
+				<li class="presention1"><a href="./show?songid=5">慢慢——张学友</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

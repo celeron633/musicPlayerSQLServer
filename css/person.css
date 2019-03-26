@@ -1,0 +1,44 @@
+﻿*{margin:0;padding:0;}
+body { font: 20px "微软雅黑"; color: #d1cbc7; }
+a { text-decoration: none; color: #e3421f; }
+.wrap { margin: 0 auto; width:960px; }
+
+#header { height: 120px; background:#EFF4FA; color: #68615d; margin: 0 0 50px; }
+
+h1 { font: 40px ;letter-spacing: -0.04em; }
+
+
+#logo { float: left; margin: 30px 0 36px 0; color: #68615d;}
+#logo a { font-weight: bold;color: #68615d; }
+
+#menu {float: right;margin: 46px 10px 0 0;}
+#menu li { display: inline; font-size: 20px;list-style: none; }
+#menu li a { float: left; color: #68615d; margin: 0 0 0 65px;}
+#menu li a:hover { color: #269DE0; }
+#menu li a.current { color: #269DE0; }
+
+#main { clear: left; float: left; width: 650px;}
+span { width:40px;height:20px;color:#269DE0; }
+	
+
+#side { float: right; width: 315px; font-size: 20px; color: #68615d; background:#EFF4FA; padding: 23px; margin: 20px 0 40px 60px; white-space:nowrap;}
+#side ul { list-style: none; }
+#side p {margin:10px 0 30px 0;white-space:nowrap;}
+
+div.img{ margin:10px 5px 6px 5px;height:auto; width:auto; float:left; text-align:center;}
+div.img img { margin:3px; border:1px solid #94E4FF;}
+
+input
+{
+	width:200px;
+	height:25px;
+	line-height:10px;
+	padding-left:10px;
+	border:1px solid #0CF;  
+}
+
+.th
+{
+	font-weight:bold;
+	color:#ff9955;
+}
